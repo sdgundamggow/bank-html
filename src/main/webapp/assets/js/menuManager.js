@@ -106,7 +106,7 @@ Ext.onReady(function() {
 
     var DemandsProcess= new Ext.tree.TreeNode({
         id:'DemandsProcess',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'事务流程监控',
         listeners:{
             'click':function(node, event) {
@@ -127,7 +127,7 @@ Ext.onReady(function() {
 
 	var ItemsProcess= new Ext.tree.TreeNode({
         id:'ItemsProcess',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'订购流程监控',
         listeners:{
             'click':function(node, event) {
@@ -148,7 +148,7 @@ Ext.onReady(function() {
 
     var ReturnsProcess= new Ext.tree.TreeNode({
         id:'ReturnsProcess',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'退货流程监控',
         listeners:{
             'click':function(node, event) {
@@ -188,7 +188,7 @@ Ext.onReady(function() {
 
     var ServiceStatistics= new Ext.tree.TreeNode({
         id:'ServiceStatistics',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'事务统计&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -209,7 +209,7 @@ Ext.onReady(function() {
 
     var ItemStatistics= new Ext.tree.TreeNode({
         id:'ItemStatistics',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'物品统计&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -230,7 +230,7 @@ Ext.onReady(function() {
 
 	var historyOrder= new Ext.tree.TreeNode({
         id:'historyOrder',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'订购历史&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -270,7 +270,7 @@ Ext.onReady(function() {
 	
 	var ProblemManage= new Ext.tree.TreeNode({
         id:'ProblemManage',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'事务处理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -291,7 +291,7 @@ Ext.onReady(function() {
 	
 	var DeliveryTracking= new Ext.tree.TreeNode({
         id:'DeliveryTracking',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'订单处理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -312,7 +312,7 @@ Ext.onReady(function() {
 	
 	var ReturnTracking= new Ext.tree.TreeNode({
         id:'ReturnTracking',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'退货处理&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -333,7 +333,7 @@ Ext.onReady(function() {
 
     var AffairReport= new Ext.tree.TreeNode({
         id:'AffairReport',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'新事务申报&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -354,7 +354,7 @@ Ext.onReady(function() {
 	
 	var GoodsReport= new Ext.tree.TreeNode({
         id:'GoodsReport',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'物品订购申报',
         listeners:{
             'click':function(node, event) {
@@ -375,7 +375,7 @@ Ext.onReady(function() {
 	
 	var GoodsReturnReport= new Ext.tree.TreeNode({
         id:'GoodsReturnReport',
-        icon:'img/user.gif',
+        icon:'/assets/image/user.gif',
         text:'物品退货申报',
         listeners:{
             'click':function(node, event) {
@@ -418,7 +418,7 @@ Ext.onReady(function() {
 
     var InventoryList= new Ext.tree.TreeNode({
         id:'InventoryList',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'在库管理&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -439,7 +439,7 @@ Ext.onReady(function() {
 
 	var StorageList= new Ext.tree.TreeNode({
         id:'StorageList',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'入库清单&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -460,7 +460,7 @@ Ext.onReady(function() {
 
 	var OutLibraryList = new Ext.tree.TreeNode({
         id:'OutLibraryList',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'出库清单&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -481,7 +481,7 @@ Ext.onReady(function() {
 
 	var ReturnList= new Ext.tree.TreeNode({
         id:'ReturnList',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'退货清单&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -522,7 +522,7 @@ Ext.onReady(function() {
 
 	var ServicesSetup= new Ext.tree.TreeNode({
         id:'ServicesSetup',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'事务设置&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -543,7 +543,7 @@ Ext.onReady(function() {
 
 	var ItemSetup= new Ext.tree.TreeNode({
         id:'ItemSetup',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'物品设置&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -582,7 +582,7 @@ Ext.onReady(function() {
 
     var PersonalSetup= new Ext.tree.TreeNode({
         id:'PersonalSetup',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'密码修改&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {
@@ -620,7 +620,7 @@ Ext.onReady(function() {
 
 	var Notice= new Ext.tree.TreeNode({
         id:'Notice',
-        icon:'img/im2.gif',
+        icon:'/assets/image/im2.gif',
         text:'系统公告&nbsp;&nbsp;&nbsp;&nbsp;',
         listeners:{
             'click':function(node, event) {

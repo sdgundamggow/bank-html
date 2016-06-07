@@ -33,7 +33,7 @@
         <span>
             <div height="90" class="api-title" style="background: url('/assets/image/top_bg.jpg') repeat-x; height:90px">
 				
-                <img src="/assets/image/top.gif">
+                <img src="/assets/image/top.jpg">
             </div>
             <div height="20" style="background: url('/assets/image/menu_bg.jpg') repeat-x;height:20px;font-size:10pt;">
                 <div style="float:left;margin:0 0 0 10px;font:normal 12px tahoma, arial, sans-serif;color:#ffffff;">

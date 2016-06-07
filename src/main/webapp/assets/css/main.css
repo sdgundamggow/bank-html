@@ -1,6 +1,6 @@
 #north{
    border:0 none;
-   background:#1E4176 url(img/hd-bg.gif) repeat-x 0 0;
+   background:#1E4176 url(/assets/imagehd-bg.gif) repeat-x 0 0;
    padding-top:3px;
    padding-left:3px;
 }
@@ -11,7 +11,7 @@
 }
 .loading-indicator {
     font-size:11px;
-    background-image:url('img/loading.gif');
+    background-image:url('/assets/image/loading.gif');
     background-repeat: no-repeat;
     background-position:top left;
     padding-left:20px;

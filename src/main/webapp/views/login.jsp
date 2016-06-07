@@ -25,7 +25,7 @@
                               <input name="account" type="text" style="width:100px; height:22px;">
                       </td>
                         <td rowspan="3" class="LoginTbRight">
-						<a href="/home.jsp">
+						<a href="/views/home.jsp">
 							<img src="/assets/image/BtnLogin.gif" name="Image1" border="0" id="Image1">
 					    </a>                       
 					  </td>
